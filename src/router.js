@@ -1,9 +1,11 @@
 import homepage from './homepage'
 import landing from './landing'
+import textComponent from './textComponent'
 
 const routes = {
   '/landing': landing,
-  '/homepage': homepage
+  '/homepage': homepage,
+  '/text-component': textComponent
 }
 
 class Router {
@@ -21,7 +23,7 @@ class Router {
 
   load(path) {
     if (path === '/') {
-        path = '/homepage'
+      path = '/homepage'
     }
     let view = new routes[path]()
     view.mount(document.body)
