@@ -1,11 +1,13 @@
 import homepage from './homepage'
 import landing from './landing'
 import textComponent from './textComponent'
+import textWithMediaComponent from './textWithMediaComponent'
 
 const routes = {
   '/landing': landing,
   '/homepage': homepage,
-  '/text-component': textComponent
+  '/text-component': textComponent,
+  '/text-with-media-component': textWithMediaComponent
 }
 
 class Router {
