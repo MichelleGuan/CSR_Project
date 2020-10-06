@@ -9,5 +9,8 @@ export default class {
         container.querySelector('.landing').addEventListener('click', () => {
             router.go('/landing')
         })
+        container.querySelector('.text-component').addEventListener('click', () => {
+            router.go('/text-component')
+        })
     }
 }

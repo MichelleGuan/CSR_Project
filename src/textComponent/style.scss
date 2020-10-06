@@ -1,0 +1,11 @@
+.text_component {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 15px 0;
+
+    >p {
+        margin: 15px;
+    }
+}
+
