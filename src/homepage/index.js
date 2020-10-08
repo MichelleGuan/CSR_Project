@@ -12,5 +12,8 @@ export default class {
         container.querySelector('.text-component').addEventListener('click', () => {
             router.go('/text-component')
         })
+        container.querySelector('.text-with-media-component').addEventListener('click', () => {
+            router.go('/text-with-media-component')
+        })
     }
 }

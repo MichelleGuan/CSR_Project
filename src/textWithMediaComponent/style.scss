@@ -1,0 +1,33 @@
+.text_with_media_component {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 0.9375rem 0;
+
+    >img {
+        width: 18.75rem;
+        margin: 0.9375rem;
+    }
+
+    >video {
+        width: 18.75rem;
+        margin: 0.9375rem;
+    }
+
+    .text_heading {
+        width: 100%;
+    }
+
+    .text_content {
+        line-height: 1.375rem;
+    }
+
+    .media-right {
+        float: right;
+    }
+
+    .media-left {
+        float: left;
+    }
+}
+
