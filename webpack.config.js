@@ -76,7 +76,7 @@ module.exports = {
 };
 if (dev) {
     module.exports.serve = {
-      port: 8080,
+      port: 2048,
       add: app => {
         app.use(convert(history()))
       }
