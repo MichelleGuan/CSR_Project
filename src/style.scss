@@ -1,11 +1,33 @@
-.hello{
-    color:red;
-}
-.chart div {
-    font: 10px;
-    background-color: steelblue;
-    text-align: right;
-    padding: 3px;
-    margin: 1px;
-    color: white;
-  }
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$theme-colors: (
+  "primary": #016fad,
+  "secondary": #857D76,
+  "success": #4AA00F,
+  "warning": #FF9B19,
+  "danger": #e51E17,
+  "info": #EDAE00,
+  "light": #FFFFFF,
+  "dark": #414956 
+);
+$colors: (
+  "blue": #006193,
+  "purple": #841B8F,
+  "red": #B72F2A,
+  "orange": #ea6a19,
+  "yellow": #EDAE00,
+  "green": #4AA00F,
+  "teal": #0D9C9C,
+  "gray": #857D76,
+  "gray-dark": #414956 
+);
+
+$enable-shadows: true;
+$enable-gradients: true;
+
+
+// Import all
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
